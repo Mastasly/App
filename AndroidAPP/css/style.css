@@ -1,0 +1,90 @@
+/*!
+Author: Rafal Wolowski
+Assignment:  ANGULAR JS, Digital Skills Academy
+Date : 2017/07/03
+!*/
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: #b1f6cb;
+    background-image: url(http://i1367.photobucket.com/albums/r792/acochran89/congruent_pentagon_zps6e6b49bf.png);
+    font-family: 'Open Sans',sans-serif;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    background: transparent;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 150px;
+    font-size: 1em;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+}
+
+/* custom checkboxes */
+.checkbox {
+    margin-right: 1em;
+}
+.checkbox {
+    -webkit-appearance: none;
+            appearance: none;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+    display: inline-block;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    vertical-align: middle;
+}
+
+.checkbox:focus {
+    outline: none;
+}
+
+.checkbox:before, .checkbox:checked:before {
+    font-family: 'FontAwesome';
+    color: #444;
+    font-size: 20px;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+
+}
+
+.checkbox:before {
+    content: '\f096';
+}
+
+.checkbox:checked:before {
+    content: '\f14a';
+    color: #16a085;
+}
+img {
+    width:304px;
+    height:228px;
+  
+   
+    top: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #777;
+}
+
+footer a {
+    color: #f39c12;
+}
+
